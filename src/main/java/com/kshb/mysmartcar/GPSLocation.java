@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.hb.mysmartcar;
+package com.kshb.mysmartcar;
 
 /**
  * This is GPSLocation class that extends from Sensor class

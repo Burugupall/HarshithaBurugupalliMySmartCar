@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.hb.mysmartcar;
+package com.kshb.mysmartcar;
 
 /**
  * This is a Sensor Class that acts as Super class for both GPSLocation and Camera classes
