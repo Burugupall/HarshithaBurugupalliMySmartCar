@@ -3,12 +3,14 @@
  */
 package com.kshb.mysmartcar;
 
+import edu.fiu.jit.SelfCheckCapable;
+
 /**
  * This is a Battery Class
  * @author harsh
  *
  */
-public class Battery {
+public class Battery implements SelfCheckCapable {
 
 	//Attributes
 	public double Capacity;
@@ -26,5 +28,15 @@ public class Battery {
 	}
 	public void TurnOff() {
 		//When battery is turned off
+	}
+	@Override
+	public String getComponentName() {
+		// TODO Auto-generated method stub
+		return "Battery Storage";
+	}
+	@Override
+	public boolean selfCheck() {
+		// TODO Auto-generated method stub
+		return true;
 	}
 }
